@@ -1,0 +1,79 @@
+.courses-bg-img {
+  background-image: url("../../../Assets/Images/coursesSoon.jpg");
+  height: 832px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.coming-soon {
+  margin-right: 40px;
+  width: 500px;
+  height: 500px;
+}
+.coming-soon h4 {
+  font-family: "Inter";
+  margin-top: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+.coming-soon p {
+  margin-top: 50px;
+
+  text-align: center;
+}
+.css-1jwukhy {
+  background: white;
+  top: 441px !important;
+  left: 1047px !important;
+}
+
+.css-mhc70k-MuiGrid-root > .MuiGrid-item {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+  cursor: pointer !important;
+  height: 2.5rem !important;
+  width: 2.5rem !important;
+}
+.css-zi4qmi-MuiTypography-root {
+  font-size: 2rem !important;
+}
+@media (max-width: 678px) {
+  .css-zi4qmi-MuiTypography-root {
+    font-size: 1.5rem !important;
+  }
+  .courses-bg-img {
+    background: white;
+    height: 832px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .courses-bg-img2 {
+    background-image: url("../../../Assets/Images/coursesSoon.jpg");
+
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .coming-soon {
+    width: 100%;
+  }
+}
+
+.joinWaitListBox {
+  display: flex;
+  justify-content: center;
+}

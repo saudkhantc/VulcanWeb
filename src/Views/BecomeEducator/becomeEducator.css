@@ -1,0 +1,23 @@
+.bg-img {
+  background-image: url("../../Assets/Images/becomeEducatorBgImg.png");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-img2 {
+  background: white;
+  height: 350px;
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  font-size: 2rem;
+}

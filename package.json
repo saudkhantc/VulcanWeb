@@ -1,0 +1,71 @@
+{
+  "name": "vulcan-web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.8",
+    "@emotion/styled": "^11.10.8",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.12.2",
+    "@mui/styled-engine-sc": "^5.12.0",
+    "@mui/x-date-pickers": "^6.18.2",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@stripe/react-stripe-js": "^2.6.2",
+    "@stripe/stripe-js": "^3.1.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.2.3",
+    "dayjs": "^1.11.10",
+    "dotenv": "^16.3.1",
+    "firebase": "^9.21.0",
+    "formik": "^2.4.1",
+    "netlify-cli": "^15.8.0",
+    "react": "^18.2.0",
+    "react-avatar-edit": "^1.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "^18.2.0",
+    "react-draggable": "^4.4.5",
+    "react-icons": "^4.12.0",
+    "react-image-crop": "^11.0.4",
+    "react-quill": "^2.0.0",
+    "react-redux": "^8.0.7",
+    "react-router-dom": "^6.10.0",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^9.1.3",
+    "stripe": "^14.21.0",
+    "styled-components": "^5.3.10",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.2.0"
+  },
+  "scripts": {
+    "start": "set NODE_ENV=development && react-scripts start",
+    "build": "set NODE_ENV=production && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-unused-vars": "warn",
+      "no-console": 1
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

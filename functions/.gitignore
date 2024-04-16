@@ -1,0 +1,35 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore specific log files
+*.log
+
+# database-debug.log
+firebase-debug.log
+ui-debug.log
+firebase-debug.log
+#firebase-debug.log
+.firebase-debug.log
+/firebase-debug.log
+./firebase-debug.log
+*firebase-debug.log
+/ui-debug.log
+*.log
+
+database-debug.log
+firebase-debug.log
+ui-debug.log
+firebase-debug.log
+#firebase-debug.log
+.firebase-debug.log
+/firebase-debug.log
+./firebase-debug.log
+firebase-debug
+
+.serviceAccountKey.json
+/serviceAccountKey.json
+./serviceAccountKey.json
+serviceAccountKey.json
+
+storage.rules
+database.rules.json

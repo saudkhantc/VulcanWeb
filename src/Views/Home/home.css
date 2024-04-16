@@ -1,0 +1,9 @@
+.home {
+  background-image: url("../../Assets/Images/backgroundImage.png");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}

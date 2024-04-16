@@ -1,0 +1,60 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+#extra
+/extra
+
+# testing
+/coverage
+
+# production
+/build
+
+.env
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.development
+.env.test.local
+.env.production.local
+.env.production
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+functions/node_modules/
+
+# Ignore specific log files
+*.log
+
+# database-debug.log
+firebase-debug.log
+ui-debug.log
+firebase-debug.log
+#firebase-debug.log
+.firebase-debug.log
+/firebase-debug.log
+./firebase-debug.log
+*firebase-debug.log
+/ui-debug.log
+*.log
+
+database-debug.log
+firebase-debug.log
+ui-debug.log
+firebase-debug.log
+#firebase-debug.log
+.firebase-debug.log
+/firebase-debug.log
+./firebase-debug.log
+firebase-debug
+/database-debug.log
+.database-debug.log
+.storage.rules
+/storage.rules
+storage.rules
+database.rules.json
